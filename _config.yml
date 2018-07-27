@@ -1,7 +1,15 @@
 title: "Elliot Mitchum"
 description: "A Software Engineering Journey"
 url: ""
-exclude: [Gemfile, Gemfile.lock]
+exclude: [
+  .editorconfig,
+  .gitignore,
+  docker-compose.yml,
+  Gemfile,
+  Gemfile.lock,
+  package.json,
+  yarn.lock
+]
 highlighter: false
 kramdown:
   auto_ids: false
