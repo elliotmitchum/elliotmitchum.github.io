@@ -16,10 +16,10 @@
 - Programming
   - Design Patterns
   - Functional Programming
-  - Object Orientated Programming
   - Language: Java
   - Language: JavaScript/TypeScript
   - Language: Scala
+  - Object Orientated Programming
   - Parallel Programming
 - Software Engineering
   - Agile
