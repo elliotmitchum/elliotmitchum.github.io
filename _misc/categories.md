@@ -1,0 +1,30 @@
+# Categories
+
+- Cloud Computing
+  - Infrastructure
+    - AWS
+  - Containers
+    - Docker
+    - Kubernetes
+- Computer Systems
+  - Operating Systems
+    - Linux
+      - Bash
+  - Networking
+- Personal Skills
+  - Communication
+- Programming
+  - Design Patterns
+  - Functional Programming
+  - Object Orientated Programming
+  - Language: Java
+  - Language: JavaScript/TypeScript
+  - Language: Scala
+  - Parallel Programming
+- Software Engineering
+  - Agile
+  - Testing
+- Theory
+  - Algorithms
+  - Logic & Problem Solving
+  - Mathematics
