@@ -1,0 +1,46 @@
+.entries {
+  @include type-leader;
+  @include type-leader-clear;
+
+  h2 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+  }
+
+  ol,
+  li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  ol {
+    @include pie-clearfix;
+    @include breakpoint($breakpoint-large-x) {
+      margin-top: -#{em($base-vertical-margin * .25)};
+    }
+  }
+
+  li {
+    @include type-leader(.25);
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-large-x) {
+      padding-left: em(100px);
+      position: relative;
+    }
+  }
+
+  p {
+    margin: 0;
+    @include breakpoint($breakpoint-large-x) {
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  a {
+    display: block;
+  }
+}

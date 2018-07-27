@@ -1,0 +1,19 @@
+.entry {
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  > header,
+  > div {
+    @include type-leader;
+    @include type-leader-clear;
+  }
+
+  > header > h1 {
+    @include breakpoint($breakpoint-large) {
+      @include th-h($heading: skyler);
+      @include type-leader-clear;
+    }
+  }
+}
