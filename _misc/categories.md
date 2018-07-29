@@ -6,7 +6,7 @@
   - Containers
     - Docker
     - Kubernetes
-- Computer Systems
+- Computer Systems & Electronics
   - Operating Systems
     - Linux
       - Bash
