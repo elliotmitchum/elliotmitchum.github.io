@@ -38,11 +38,7 @@ table {
     border-bottom: 1px solid $color-grey-cement;
     padding: em($base-vertical-margin / 2);
     text-align: left;
-    vertical-align: middle;
-
-    &:last-child {
-      border-right: 0;
-    }
+    vertical-align: top;
   }
 
   th {
@@ -50,6 +46,6 @@ table {
   }
 
   thead th {
-    background-color: $color-grey-cement;
+    background-color: $color-grey-sky;
   }
 }

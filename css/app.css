@@ -389,14 +389,11 @@ table {
     border-bottom: 1px solid #ddd;
     padding: 0.8125em;
     text-align: left;
-    vertical-align: middle; }
-    table td:last-child,
-    table th:last-child {
-      border-right: 0; }
+    vertical-align: top; }
   table th {
     font-weight: 700; }
   table thead th {
-    background-color: #ddd; }
+    background-color: #f0f3f3; }
 
 h1,
 h2,
