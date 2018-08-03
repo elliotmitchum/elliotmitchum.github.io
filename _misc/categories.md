@@ -1,29 +1,24 @@
 # Categories
 
 - Cloud Computing
-  - Infrastructure
-    - AWS
-  - Containers
-    - Docker
-    - Kubernetes
-- Computer Systems & Electronics
-  - Operating Systems
-    - Linux
-      - Bash
+  - AWS
+  - Docker
+  - Kubernetes
+- Computer Architecture
+- Electronics
+  - Arduino
+  - Raspberry Pi
+- Operating Systems
+  - Linux
   - Networking
 - Personal Skills
   - Communication
 - Programming
   - Design Patterns
-  - Functional Programming
-  - Language: Java
-  - Language: JavaScript/TypeScript
-  - Language: Scala
-  - Object Orientated Programming
+  - Language: Bash
+  - Language: C
+  - Language: Rust
   - Parallel Programming
-- Software Engineering
-  - Agile
-  - Testing
 - Theory
   - Algorithms
   - Logic & Problem Solving
