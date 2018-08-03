@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Java: An Introduction to Sets & Lists"
+title: "Example Post"
 lede: "This is an example post."
 date: 2018-07-09
 ---
