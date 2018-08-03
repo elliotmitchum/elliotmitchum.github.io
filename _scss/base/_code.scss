@@ -7,8 +7,9 @@ pre {
 }
 
 code {
-  color: $color-red-royal;
+  color: $color-green-cyan;
   display: inline-block;
+  font-weight: 700;
 
   h1 &,
   h2 &,
@@ -21,17 +22,14 @@ code {
 }
 
 pre {
-  $base: th-base(saul);
   @include border-radius(3px);
   @include type-leader;
   @include type-leader-clear;
-  @include th-h($heading: saul, $include: font-size);
   background-color: $color-grey-sky;
   display: block;
-  line-height: em(22px, $base);
   max-width: 100%;
   overflow: auto;
-  padding: em($base-vertical-margin, $base);
+  padding: em($base-vertical-margin);
 
   code {
     background: none;
