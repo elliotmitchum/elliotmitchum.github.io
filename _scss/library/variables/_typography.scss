@@ -1,6 +1,6 @@
-$type-font-family-body: "Fira Sans", serif, sans-serif;
+$type-font-family-body: "IBM Plex Sans", serif; 
 $type-font-family-display: $type-font-family-body;
-$type-font-family-mono: "Fira Mono", monospace;
+$type-font-family-mono: "IBM Plex Mono", monospace;
 
 // Type Heading
 // https://github.com/ellioseven/type-heading
@@ -12,8 +12,8 @@ $th-headings: (
   marie: (24px 36px),
   tuco: (21px 32px),
   junior: (18px 28px),
-  saul: (14px 20px),
-  chris: (12px 18px)
+  saul: (16px 24px),
+  chris: (14px 10px)
 );
 
 $th-base-font-size: $base-font-size;

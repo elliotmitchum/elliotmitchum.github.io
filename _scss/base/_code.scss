@@ -7,9 +7,8 @@ pre {
 }
 
 code {
-  color: $color-green-cyan;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
 
   h1 &,
   h2 &,
@@ -25,11 +24,10 @@ pre {
   @include border-radius(3px);
   @include type-leader;
   @include type-leader-clear;
-  background-color: $color-grey-sky;
+  @include th-hs(saul);
   display: block;
   max-width: 100%;
   overflow: auto;
-  padding: em($base-vertical-margin);
 
   code {
     background: none;
